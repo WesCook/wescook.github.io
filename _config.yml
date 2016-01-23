@@ -1,0 +1,11 @@
+# Site settings
+title: Wes Cook
+email: im@wescook.ca
+description: Personal webpage
+baseurl: ""
+url: "http://wescook.ca"
+twitter_username: WesCook
+github_username: WesCook
+
+# Build settings
+markdown: kramdown
