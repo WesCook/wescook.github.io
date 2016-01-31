@@ -1,7 +1,7 @@
 /* Sidebar mode */
 @media screen and (min-width: 760px) {
 	.sidebar {
-		width: 300px;
+		width: 322px;
 	}
 	.nav li {
 		margin-top: 12px;
@@ -22,4 +22,7 @@
 /* Content fills as much space as possible */
 .container {
 	flex: 1;
+	max-width: 900px;
+	padding: 50px;
+	margin: 0 auto;
 }

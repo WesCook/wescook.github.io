@@ -17,6 +17,8 @@ Components - Class-specific selectors
 Trumps - All overrides. Here lives !important
 */
 
+@import "settings/colors";
+
 @import "generic/reset";
 @import "generic/box-sizing";
 
