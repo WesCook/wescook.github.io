@@ -1,0 +1,38 @@
+/* Body fills whole window, flexes children */
+body {
+	display: flex;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* Content fills as much space as possible */
+main {
+	flex: 1;
+}
+
+/* Sidebar mode */
+/* Limit width */
+@media screen and (min-width: 760px) {
+	aside {
+		width: 300px;
+	}
+}
+
+/* Top Menu mode */
+/* Center menu horizontally instead */
+@media screen and (max-width: 760px) {
+	body {
+		flex-direction: column;
+	}
+	.nav li {
+		display: inline;
+	}
+}
+
+aside {
+	background-color: #7D9CAB;
+	color: #fff;
+}
