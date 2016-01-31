@@ -2,15 +2,25 @@
 ---
 
 /*
-	Written using BEM and ITCSS methodology
-		http://getbem.com/
-		http://itcss.io/
+	Written using ITCSS methodology (http://itcss.io/)
 	See /_sass for imported files
 */
 
-@import "settings"; /* Global variables, configs */
-@import "tools"; /* Mixins and functions */
-@import "generic"; /* Normalize, resets, box-sizing */
-@import "elements"; /* Element-wide selectors */
-@import "components"; /* Class-specific selectors */
-@import "trumps"; /* Overrides.  Here lives !important */
+/*
+Layers
+------
+Settings - Global variables, configs
+Tools - Mixins and functions
+Generic - Normalize, resets, box-sizing
+Elements - Element-wide selectors
+Components - Class-specific selectors
+Trumps - All overrides. Here lives !important
+*/
+
+@import "generic/reset";
+@import "generic/box-sizing";
+
+@import "elements/main";
+
+@import "components/main-layout";
+@import "components/nav";

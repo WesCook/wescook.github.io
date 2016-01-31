@@ -1,0 +1,25 @@
+/* Sidebar mode */
+@media screen and (min-width: 760px) {
+	.sidebar {
+		width: 300px;
+	}
+	.nav li {
+		margin-top: 12px;
+	}
+}
+
+/* Top Menu mode */
+@media screen and (max-width: 760px) {
+	body {
+		flex-direction: column;
+	}
+	.nav li {
+		display: inline;
+		margin-right: 10px;
+	}
+}
+
+/* Content fills as much space as possible */
+.container {
+	flex: 1;
+}

@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="/css/main.css">
-	<meta rel="canonical">
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 {% include nav.html %}
 
-<main class="wrapper">
+<main class="container">
 	<div class="page-content">
 		{{ content }}
 	</div>
