@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: container
 title: About
 ---
 About page
