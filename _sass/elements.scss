@@ -14,25 +14,28 @@ main {
 }
 
 /* Sidebar mode */
-/* Limit width */
 @media screen and (min-width: 760px) {
+	/* Limit sidebar width */
 	aside {
 		width: 300px;
 	}
 }
 
 /* Top Menu mode */
-/* Center menu horizontally instead */
 @media screen and (max-width: 760px) {
+	/* Vertical layout */
 	body {
 		flex-direction: column;
 	}
+	/* Horizontal text */
 	.nav li {
 		display: inline;
 	}
 }
 
+/* Sidebar styling */
 aside {
-	background-color: #7D9CAB;
+	text-align: center;
+	background-color: #2196F3;
 	color: #fff;
 }
