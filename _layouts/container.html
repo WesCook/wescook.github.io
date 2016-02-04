@@ -2,20 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<title>{% if page.title %}{{ page.title }} | Wes Cook{% else %}Wes Cook, Developer{% endif %}</title>
 	<link rel="stylesheet" href="/css/main.css">
-	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', ''}}">
+	<link rel="alternate" type="application/rss+xml" title="Wes Cook" href="/feed.xml" />
 </head>
 <body>
 
 {% include nav.html %}
 
 <main class="container">
-	<div class="page-content">
-		{{ content }}
-	</div>
-	{% include footer.html %}
+	{{ content }}
 </main>
+
+{% include analytics.html %}
 
 </body>
 </html>

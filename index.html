@@ -3,17 +3,25 @@ layout: container
 ---
 <h1>Howdy, I'm Wes.</h1>
 
-<p>I'm a geek that likes making things with computers.  I've worked at all levels in the stack, from building content management systems, designing frontend products, and working with clients on online marketing.</p>
+<p>I'm a geek that likes making things with computers.  Passionate about the web, I've been programming online and off for the last ten years.</p>
 <p>Here's some stuff I've recently written:</p>
 
-<h3>Blog</h3>
+<h2 class="category-header">Blog</h2>
 
-{% for post in site.categories.blog %}
-	<a href="{{ post.url }}">{{ post.title }}</a>
+{% for post in site.categories.blog limit:3 %}
+	<section class="post-list">
+		<h3 class="post-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<p>{{ post.excerpt | strip_html }}</p>
+		<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+	</section>
 {% endfor %}
 
-<h3>Projects</h3>
+<h2 class="category-header">Projects</h2>
 
-{% for post in site.categories.projects %}
-	<a href="{{ post.url }}">{{ post.title }}</a>
+{% for post in site.categories.projects limit:3 %}
+	<section class="post-list">
+		<h3 class="post-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<p>{{ post.excerpt | strip_html }}</p>
+		<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+	</section>
 {% endfor %}

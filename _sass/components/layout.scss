@@ -2,9 +2,16 @@
 @media screen and (min-width: 760px) {
 	.sidebar {
 		width: 322px;
+		padding: 50px;
+	}
+	.sidebar a {
+		padding-bottom: 6px;
 	}
 	.nav li {
 		margin-top: 12px;
+	}
+	.bio {
+		margin-bottom: 50px;
 	}
 }
 
@@ -13,9 +20,13 @@
 	body {
 		flex-direction: column;
 	}
+	.sidebar {
+		padding: 20px;
+		box-sizing: content-box;
+	}
 	.nav li {
 		display: inline;
-		margin-right: 10px;
+		margin: 0 10px;
 	}
 }
 
@@ -25,4 +36,15 @@
 	max-width: 900px;
 	padding: 50px;
 	margin: 0 auto;
+}
+
+/* Floating images */
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear {
+	clear: both;
 }

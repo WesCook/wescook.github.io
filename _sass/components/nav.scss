@@ -1,20 +1,16 @@
 /* Navigation */
+.nav ul {
+	list-style-type: none;
+}
 .nav a {
 	color: white;
-	font-size: 1.6em;
+	font-size: 1.4em;
 }
 
 .my-name {
+	margin: 8px;
 	font-weight: normal;
-	font-size: 1.9em;
-}
-
-.my-title {
-	font-size: 1.1em;
-}
-
-.about {
-	margin: 50px 0;
+	font-size: 2em;
 }
 
 /* Sidebar styling */
@@ -26,7 +22,6 @@
 
 .sidebar a {
 	color: white;
-	padding-bottom: 6px;
 	border-bottom: 2px solid $primary-color;
 	transition: border-bottom 0.5s ease;
 }
