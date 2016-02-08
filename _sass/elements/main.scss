@@ -8,7 +8,12 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.4;
+}
+/* IE fix for sidebar scaling */
+body::after{
+	content: '';
 	height: 100vh;
+	visibility: hidden;
 }
 
 /* Paragraph and header spacing */

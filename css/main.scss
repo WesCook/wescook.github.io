@@ -19,8 +19,9 @@ Trumps - All overrides. Here lives !important
 
 @import "settings/colors";
 
+@import "tools/flexbox";
+
 @import "generic/reset";
-@import "generic/html5-block";
 @import "generic/box-sizing";
 
 @import "elements/main";
