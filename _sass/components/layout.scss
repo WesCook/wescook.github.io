@@ -1,4 +1,4 @@
-/* Sidebar mode */
+// Sidebar mode
 @media screen and (min-width: 760px) {
 	.sidebar {
 		width: 322px;
@@ -15,7 +15,7 @@
 	}
 }
 
-/* Top Menu mode */
+// Top Menu mode
 @media screen and (max-width: 760px) {
 	body {
 		flex-direction: column;
@@ -30,7 +30,7 @@
 	}
 }
 
-/* Content fills as much space as possible */
+// Content fills as much space as possible
 .container {
 	flex: 1 0 0;
 	max-width: 900px;
@@ -38,7 +38,7 @@
 	margin: 0 auto;
 }
 
-/* Floating images */
+// Floating images
 .float-left {
 	float: left;
 }
