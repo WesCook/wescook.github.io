@@ -13,6 +13,13 @@
 	.bio {
 		margin-bottom: 50px;
 	}
+
+	// IE fix for sidebar scaling
+	body::after {
+		content: '';
+		height: 100vh;
+		visibility: hidden;
+	}
 }
 
 // Top Menu mode
