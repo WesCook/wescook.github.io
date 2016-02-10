@@ -1,0 +1,13 @@
+---
+layout: container
+title: Helix Downloads
+---
+<h1>Helix Downloads</h1>
+
+<ul>
+{% for file in site.static_files %}
+	{% if file.path contains 'helix' %}
+		<li><a href="{{ file.path }}">{{ file.path | split: '/helix/' }}</a></li>
+	{% endif %}
+{% endfor %}
+</ul>
