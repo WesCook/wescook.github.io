@@ -1,8 +1,9 @@
 // Sidebar mode
 @media screen and (min-width: 760px) {
 	.sidebar {
-		width: 322px;
-		padding: 50px;
+		width: 322px; // Fallback
+		width: calc(10% + 150px);
+		padding: 50px 0;
 	}
 	.sidebar a {
 		padding-bottom: 6px;
