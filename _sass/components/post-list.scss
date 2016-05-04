@@ -1,5 +1,21 @@
 // Formatting of blog and project listings
 
+// Post title, listing and post pages
+.post-title {
+	margin-bottom: -5px;
+}
+// Post date, listing and post pages
+.post-date {
+	font-size: 0.8em;
+	color: #666;
+}
+
+// Main category headers
+.category-header {
+	margin-top: 1em;
+}
+
+// Post lists
 .post-list {
 	margin-bottom: 1.2em;
 }
@@ -8,13 +24,4 @@
 }
 .post-list p {
 	margin-bottom: 0;
-}
-
-.category-header {
-	margin-top: 1em;
-}
-
-.post-date {
-	font-size: 0.8em;
-	color: #666;
 }
