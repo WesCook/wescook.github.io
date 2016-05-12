@@ -1,13 +1,15 @@
-// Body fills whole window, flexes children
-html {
-	height: 100%;
-}
+// Main font styling
 body {
-	display: flex;
-	min-height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.4;
+}
+
+// Fluid text scaling
+@media screen and (max-width: 800px) {
+	body {
+		font-size: calc(0.8em + 0.8vw);
+	}
 }
 
 // Paragraph and header spacing
@@ -22,11 +24,4 @@ a {
 }
 a:hover {
 	border-bottom: 2px solid $primary-color;
-}
-
-// Code tags
-code {
-	background-color: #EAEAEA;
-	border: 1px solid #D6D6D6;
-	padding: 2px;
 }

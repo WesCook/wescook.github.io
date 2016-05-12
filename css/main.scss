@@ -22,7 +22,9 @@ Trumps - All overrides. Here lives !important
 @import "generic/reset";
 @import "generic/box-sizing";
 
-@import "elements/main";
+@import "elements/layout";
+@import "elements/typography";
+@import "elements/decoration";
 
 @import "components/layout";
 @import "components/nav";
