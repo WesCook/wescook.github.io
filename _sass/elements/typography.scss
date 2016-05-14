@@ -1,3 +1,13 @@
+// Google Fonts
+@font-face {
+	font-family: 'Source Sans Pro';
+	src:
+		local('Source Sans Pro'),
+		local('SourceSansPro-Regular'),
+		url(/css/fonts/SourceSansPro.woff2) format('woff2'),
+		url(/css/fonts/SourceSansPro.woff) format('woff');
+}
+
 // Main font styling
 body {
 	font-family: 'Source Sans Pro', sans-serif;
