@@ -1,33 +1,36 @@
 @media print {
 	/* Hide sidebar */
-    .sidebar {
-        display: none;
-    }
+	.sidebar {
+		display: none;
+	}
 
-    /* Page margins */
-    @page {
-        margin: 0.5cm;
-    }
+	/* Page margins */
+	@page {
+		margin: 0.5cm;
+	}
+	.container {
+		padding: 0;
+	}
 
 	/* Add author */
 	h1::after {
 		content: "by Wes Cook";
 		display: block;
-		font-size: 0.75em;
+		font-size: 12pt;
 		color: #464646;
 		margin: -5px 0 2px 0;
 	}
 
-    /* Element sizing */
-    h1 {
-        font-size: 1.4em;
-    }
-    body {
-        font-size: 1em;
-    }
+	/* Element sizing */
+	h1 {
+		font-size: 17pt;
+	}
+	body {
+		font-size: 12pt;
+	}
 
-    /* Remove color from links */
-    a {
-        color: #000;
-    }
+	/* Remove color from links */
+	a {
+		color: #000;
+	}
 }
