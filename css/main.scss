@@ -6,27 +6,25 @@
 	See /_sass for imported files
 */
 
-/*
-Layers
-------
-Settings - Global variables, configs
-Tools - Mixins and functions
-Generic - Normalize, resets, box-sizing
-Elements - Element-wide selectors
-Components - Class-specific selectors
-Trumps - All overrides. Here lives !important
-*/
-
+/* Settings - Global variables, configs */
 @import "settings/colors";
 
+/* Tools - Mixins and functions */
+
+/* Generic - Normalize, resets, box-sizing */
 @import "generic/reset";
 @import "generic/box-sizing";
 
+/* Elements - Element-wide selectors */
 @import "elements/layout";
 @import "elements/typography";
 @import "elements/decoration";
 
+/* Components - Class-specific selectors */
 @import "components/layout";
 @import "components/nav";
 @import "components/post-decoration";
 @import "components/post-list";
+
+/* Trumps - Overrides, !important, anything added last */
+@import "trumps/print";

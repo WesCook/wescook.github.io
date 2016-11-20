@@ -1,0 +1,33 @@
+@media print {
+	/* Hide sidebar */
+    .sidebar {
+        display: none;
+    }
+
+    /* Page margins */
+    @page {
+        margin: 0.5cm;
+    }
+
+	/* Add author */
+	h1::after {
+		content: "by Wes Cook";
+		display: block;
+		font-size: 0.75em;
+		color: #464646;
+		margin: -5px 0 2px 0;
+	}
+
+    /* Element sizing */
+    h1 {
+        font-size: 1.4em;
+    }
+    body {
+        font-size: 1em;
+    }
+
+    /* Remove color from links */
+    a {
+        color: #000;
+    }
+}
