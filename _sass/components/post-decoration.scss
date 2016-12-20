@@ -9,6 +9,11 @@
 	border: none;
 }
 
+// Remove image border
+img.no-border {
+	margin: 0;
+}
+
 // Lists
 .post ul {
 	margin: 0 0 10px 30px;
