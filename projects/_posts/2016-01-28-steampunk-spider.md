@@ -3,7 +3,7 @@ layout: post
 title: "Steampunk Spider"
 date: 2016-01-28 14:10:00 -0800
 ---
-[Steampunk Spider](https://github.com/WesCook/steampunk-spider) is a tool I wrote for the [/r/GameDeals community](https://www.reddit.com/r/GameDeals/) to make it easier to generate tables for large Steam sales.  It was my first big Javascript project and my first foray into open source.
+[Steampunk Spider](https://github.com/WesCook/SteampunkSpider) is a tool I wrote for the [/r/GameDeals community](https://www.reddit.com/r/GameDeals/) to make it easier to generate tables for large Steam sales.  It was my first big Javascript project and my first foray into open source.
 
 It works by first taking a list of URLs into its text area.  These are parsed line by line looking for a regex pattern of application type and an ID.  For instance, `app/245490` or `sub/75498`.  This simple detection method means most Steam URLs work, including community links and those with query strings.
 
@@ -21,4 +21,4 @@ This was a seminal project for me.  I learned a lot about Javascript and just ho
 
 This was also my first real contribution to open source.  It's something I've wanted to do for a long time, and I plan to do so again whenever possible.
 
-Check out [Steampunk Spider on Github](https://github.com/WesCook/steampunk-spider) and feel free to set up an instance yourself.
+Check out [Steampunk Spider on Github](https://github.com/WesCook/SteampunkSpider) and feel free to set up an instance yourself.
