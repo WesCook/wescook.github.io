@@ -31,7 +31,9 @@ p, h1, h2, h3, h4, h5, h6 {
 a {
 	text-decoration: none;
 	color: $primary-color;
+	text-decoration-skip: ink;
 }
 a:hover {
-	border-bottom: 2px solid $primary-color;
+	text-decoration-line: underline;
+	text-decoration-color: $primary-color;
 }
