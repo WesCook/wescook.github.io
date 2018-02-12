@@ -129,7 +129,7 @@ Thankfully there is a method to re-enable those enemies if their spawns have bee
 
 This is unfortunately another sore spot for the game.  Dark Souls 2 has a *ton* of bosses, but most are very simplistic in design.  This is especially true in the base game, where circling around with a shield is more often than not the best strategy.
 
-Dark Souls 2 has thirty bosses in the base game, of which only a handful really interesting.
+Dark Souls 2 has thirty bosses in the base game, of which only a handful are really interesting.
 
 The hidden boss Darklurker is almost certainly the best boss in the game.  It's significantly more difficult than others, but also completely fair.  Darklurker does an effective job of teaching the player its moveset before ramping up the difficulty.  It's too bad that many players miss it, as it's so well hidden.
 
