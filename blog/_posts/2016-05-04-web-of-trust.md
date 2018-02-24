@@ -3,7 +3,7 @@ layout: post
 title: "Web of Trust"
 date: 2016-05-04 10:27:00 -0800
 ---
-I've been using the excellent [KeePass password manager](http://keepass.info/) for many years.  It helps me keep track of hundreds of passwords with various sites and services.  It syncs securely through Dropbox so I can manage my accounts from all connected devices.  It's a great tool that I would (and do) recommend to everybody.
+I've been using the excellent [KeePass password manager](https://keepass.info/) for many years.  It helps me keep track of hundreds of passwords with various sites and services.  It syncs securely through Dropbox so I can manage my accounts from all connected devices.  It's a great tool that I would (and do) recommend to everybody.
 
 Today though, I had a striking realization: I have no way back in.  If all of my devices were to be lost, destroyed, or stolen, I would lose access to everything.
 

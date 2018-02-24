@@ -13,7 +13,7 @@ Installing TT-RSS is not as simple as setting up a Feedly account.  On a plain L
 
 Once you've got all the prerequisites met, TT-RSS is a cinch to install.  Just throw it in your /www folder and follow the wizard.  You may need to set some file permissions, as you do in Linux-land.
 
-You'll next need to setup a method for [updating feeds](https://tt-rss.org/gitlab/fox/tt-rss/wikis/UpdatingFeeds).  I set up a daemon with systemd, but you can use a crontab or run a process under screen to keep the crawler running.  Once you're done you can install a custom theme or plugins to customize your experience.
+You'll next need to setup a method for [updating feeds](https://git.tt-rss.org/fox/tt-rss/wiki/UpdatingFeeds).  I set up a daemon with systemd, but you can use a crontab or run a process under screen to keep the crawler running.  Once you're done you can install a custom theme or plugins to customize your experience.
 
 There aren't many great mobile apps for TT-RSS, so I like to use the excellent [Fever API plugin](https://github.com/dasmurphy/tinytinyrss-fever-plugin).  This lets you use any Fever-enabled app such as [Press for Android](https://play.google.com/store/apps/details?id=com.twentyfivesquares.press) which is very nice.
 
