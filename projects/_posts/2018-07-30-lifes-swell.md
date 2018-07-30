@@ -17,7 +17,7 @@ I sketched out my idea and implemented some basic features.  Players could move 
 
 I designed a few puzzles around this mechanic, and very quickly found there wasn't enough variety offered by the mechanic to create compelling puzzles.  The list of choices boiled down to the order you used the powerups in, which offered little depth.
 
-The natural progression of this idea was to then introduce a shrinking mechanic.
+The natural progression of this idea was to introduce a shrinking mechanic as well.
 
 At risk of using programmer art forever, I sketched up rough sprites for strawberries and blueberries which acted as the grow and shrink powerups, respectively.
 
@@ -32,11 +32,11 @@ I decided to add a final mechanic: holes.  The idea with holes is that you must 
 ![Level 4](/img/lifes-swell-level-4.png)
 <small>Player can cross at size 1 or 3, but not 2.</small>
 
-By this point I found I was quickly running into limitation of the GameMaker trial.  They offer a max of five rooms, which is a pretty big restriction for a puzzle game.  Hitting this limit so early meant I could only introduce the tutorial stages, which was honestly disappointing.  But I'm still happy with my progress, and had reached my goal of proving the mechanic worked.
+By this point I found I was quickly running into limitation of the GameMaker trial.  They offered a max of five rooms, which is a pretty big restriction for a puzzle game.  Hitting this limit so early meant I could only introduce the tutorial stages, which was honestly disappointing.  But I was still happy with my progress, and had reached my goal of proving the mechanic worked.
 
 I spent the rest of my time polishing up the game: bright colors, silly sound effects, and of course googly eyes for the player.
 
-The light-hearted feel I ended with is where the name of the game comes from.  "Life's Swell" also has the double meaning of referencing the growing (swelling) mechanic of the player.
+The light-hearted theme I settled on is where the name "Life's Swell" comes from.  It also has the double meaning of referencing the growing (swelling) mechanic of the player, so that's a plus.
 
 It felt really good to release this game, even if it is only five levels long.  It's been a long time since I've created a game from scratch like this.  It reminded me of when I was first learning to program by creating small games in GameMaker, and how joyful it could be.
 
