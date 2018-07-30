@@ -7,7 +7,7 @@ A couple days ago I had an idea for a new puzzle game.  The mechanic would be ba
 
 I wasn't sure if the mechanic would actually be fun, so I decided to prototype it and find out.
 
-![Level 3](/img/lifes-swell-level-3.png){:class="no-border"}
+![Level 3](/img/lifes-swell-level-3.png)
 
 Creating a game from scratch is no easy task, and often requires building out low-level systems before work can begin on higher-level mechanics.  In this case I was only interested in prototyping an idea, so I decided to dust off an old friend and give [GameMaker](https://www.yoyogames.com/gamemaker) a try.
 
@@ -29,7 +29,7 @@ However, before too long I realized that something was still missing.  Map secti
 
 I decided to add a final mechanic: holes.  The idea with holes is that you must be the correct size to cross them, by straddling the edges on both sides.  If you're too small you'll fall right in.  Combined with walls this allows greater control over player movement.
 
-![Level 4](/img/lifes-swell-level-4.png){:class="no-border"}
+![Level 4](/img/lifes-swell-level-4.png)
 <small>Player can cross at size 1 or 3, but not 2.</small>
 
 By this point I found I was quickly running into limitation of the GameMaker trial.  They offer a max of five rooms, which is a pretty big restriction for a puzzle game.  Hitting this limit so early meant I could only introduce the tutorial stages, which was honestly disappointing.  But I'm still happy with my progress, and had reached my goal of proving the mechanic worked.

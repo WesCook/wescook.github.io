@@ -7,7 +7,7 @@ I recently finished my second Minecraft mod, titled [Nutrition](https://github.c
 
 Nutrition allows you to create custom health systems in Minecraft by defining nutrient types and effects.  It does this through a [JSON-driven](https://github.com/WesCook/Nutrition/wiki/Configuration) system of Nutrients and Effects, which define unique food groups and programmable status effects.  This customization allows modpack authors to create entirely unique experiences just by editing the config files.
 
-![Nutrition Screenshot](/img/nutrition-gui.png){:class="no-border"}
+![Nutrition Screenshot](/img/nutrition-gui.png)
 
 ## Development
 

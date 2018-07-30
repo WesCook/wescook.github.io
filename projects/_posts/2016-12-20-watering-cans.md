@@ -13,4 +13,4 @@ I've released my code under the MIT license, so that anyone that's interested in
 
 Check out [Watering Cans on Github](https://github.com/WesCook/WateringCans).
 
-![Watering Cans Screenshot](/img/watering-cans-friends.png){:class="no-border"}
+![Watering Cans Screenshot](/img/watering-cans-friends.png)
