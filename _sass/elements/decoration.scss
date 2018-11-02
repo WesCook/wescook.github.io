@@ -1,6 +1,16 @@
+// Lists
+.post ol, .post ul {
+	margin: 0px 0px 10px 20px;
+}
+
 // Code tags
 code {
 	background-color: #EAEAEA;
 	border: 1px solid #D6D6D6;
 	padding: 2px;
+}
+
+// Horizontal Rule
+hr {
+	margin: 20px 0 15px 0;
 }
