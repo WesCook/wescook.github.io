@@ -21,6 +21,6 @@ Eventually I [RTFM](https://getsol.us/articles/installation/preparing-to-install
 
 At this point, grub actually loses its usefulness.  The Linux kernel now contains its own boot loader called the EFI Stub Loader, and that means we no longer need grub to act as a bootloader.
 
-A boot *manager* is still needed to select the OS, but this can be done through the motherboard's EFI selector, or using a tool like [rEFInd](http://www.rodsbooks.com/refind/) for a graphical frontend.
+A boot *manager* is still needed to select the OS, but this can be done through the motherboard's EFI selector, or using a tool like [rEFInd](https://www.rodsbooks.com/refind/) for a graphical frontend.
 
 It's been a rough start, but admittedly my goal was to gain some new experience.  Let's see where Linux Land takes us next.
