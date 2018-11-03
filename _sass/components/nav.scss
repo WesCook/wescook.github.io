@@ -1,18 +1,3 @@
-// Navigation
-.nav ul {
-	list-style-type: none;
-}
-.nav a {
-	color: white;
-	font-size: 1.4em;
-}
-
-.my-name {
-	margin: 8px;
-	font-weight: normal;
-	font-size: 2em;
-}
-
 // Sidebar styling
 .sidebar {
 	text-align: center;
@@ -22,10 +7,26 @@
 
 .sidebar a {
 	color: white;
-	border-bottom: 2px solid $primary-color;
-	transition: border-bottom 0.5s ease;
+	text-decoration: none;
 }
 
+// Name
+.my-name {
+	margin: 8px;
+	font-weight: normal;
+	font-size: 2em;
+}
+
+// Navigation
+.nav ul {
+	list-style-type: none;
+}
+
+.nav a {
+	font-size: 1.4em;
+	transition: border-bottom 0.5s ease;
+	border-bottom: 2px solid $primary-color;
+}
 .nav a:hover {
 	border-bottom: 2px solid $accent-color;
 }
