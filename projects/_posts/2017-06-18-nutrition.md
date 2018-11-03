@@ -21,11 +21,11 @@ Granted, I still needed to learn how to [write GUIs](https://twitter.com/WesCook
 
 ## Reception
 
-I'm thrilled to say that Nutrition has been well-received by the community!  In the first couple weeks I've received four pull requests, five bug reports (two unique), and plenty of comments and suggestions.
+I'm thrilled to say that Nutrition has been well-received by the community!  In the first couple weeks I've received pull requests, bug reports, and plenty of comments and suggestions.
 
 While bug reports might be seen as a negative, I found it encouraging to know that people were playing with the mod and willing to contribute back to it.  It was a validating experience for me as a developer.
 
-I'm also excited that, at this time, Nutrition has been localized into 6 different languages: English, German, Dutch, Spanish, Norwegian, and Swedish.  I'm incredibly thankful to those who submitted these localizations.
+I'm also excited that, at this time, Nutrition has already been localized into 6 different languages: English, German, Dutch, Spanish, Norwegian, and Swedish.  I'm incredibly thankful to those who submitted these localizations.
 
 ## In Closing
 
