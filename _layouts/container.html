@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', ''}}">
 	<link rel="alternate" type="application/rss+xml" title="Wes Cook" href="/feed.xml" />
+	{% include analytics.html %}
 </head>
 <body>
 
@@ -16,8 +17,6 @@
 <main class="container">
 	{{ content }}
 </main>
-
-{% include analytics.html %}
 
 </body>
 </html>
