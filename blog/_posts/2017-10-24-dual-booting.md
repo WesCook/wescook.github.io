@@ -7,7 +7,7 @@ I recently installed [Solus](https://getsol.us/home/) as a dual OS to Windows 10
 
 After spending a few days collecting my important files and tying up loose ends, I went ahead and formatted both Windows and Solus.  I put them on separate drives to avoid having their bootloaders conflict.
 
-Windows offers a Media Creation Tool to install, while Solus offers an ISO download that can be burnt using [Rufus](https://rufus.akeo.ie/).  I ran with the default settings and everything installed just fine.
+Windows offers a Media Creation Tool to install, while Solus offers an ISO download that can be burnt using [Rufus](https://rufus.ie/).  I ran with the default settings and everything installed just fine.
 
 The first issue I noticed was that grub seemed unable to detect Windows.  I spent some time trying different grub options and workarounds, but ultimately had no success.
 
@@ -23,4 +23,4 @@ At this point, grub actually loses its usefulness.  The Linux kernel now contain
 
 A boot *manager* is still needed to select the OS, but this can be done through the motherboard's EFI selector, or using a tool like [rEFInd](https://www.rodsbooks.com/refind/) for a graphical frontend.
 
-It's been a rough start, but admittedly my goal was to gain some new experience.  Let's see where Linux Land takes us next.
+It's been a rough start, but admittedly my goal was to gain some new experience.  Let's see where Linux-land takes us next.
