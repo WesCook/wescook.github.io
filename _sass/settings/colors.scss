@@ -12,7 +12,7 @@ code {
 }
 
 // Dark Mode
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
 	:root {
 		--foreground-color: white;
 		--background-color: #292727;
