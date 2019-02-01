@@ -5,8 +5,8 @@
 
 // Code tags
 code {
-	background-color: #EAEAEA;
-	border: 1px solid #D6D6D6;
+	background-color: var(--code-block-color);
+	border: 1px solid var(--code-block-border-color);
 	padding: 2px;
 }
 
