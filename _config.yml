@@ -3,7 +3,7 @@ title: Wes Cook
 email: im@wescook.ca
 description: Personal webpage
 baseurl: ""
-url: "http://wescook.ca"
+url: "https://wescook.ca"
 
 # Build settings
 markdown: kramdown
