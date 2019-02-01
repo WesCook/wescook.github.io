@@ -31,9 +31,9 @@ p, h1, h2, h3, h4, h5, h6 {
 // Remove underline from links globally
 a {
 	text-decoration: none;
-	color: $primary-color;
+	color: var(--primary-color);
 }
 a:hover {
 	text-decoration-line: underline;
-	text-decoration-color: $primary-color;
+	text-decoration-color: var(--primary-color);
 }
