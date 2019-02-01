@@ -5,8 +5,10 @@
 	--sidebar-color: #2196F3;
 	--link-color: #2196F3;
 	--post-date-color: #666;
-	--code-block-color: #EAEAEA;
-	--code-block-border-color: #D6D6D6;
+}
+code {
+	--foreground-color: #EAEAEA;
+	--border-color: #D6D6D6;
 }
 
 // Dark Mode
@@ -17,7 +19,9 @@
 		--sidebar-color: #15619c;
 		--link-color: #2196F3;
 		--post-date-color: #adadad;
-		--code-block-color: black;
-		--code-block-border-color: #737373;
+	}
+	code {
+		--foreground-color: black;
+		--border-color: #737373;
 	}
 }
