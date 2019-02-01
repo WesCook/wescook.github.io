@@ -1,7 +1,7 @@
 // Sidebar styling
 .sidebar {
 	text-align: center;
-	background-color: var(--primary-color);
+	background-color: var(--sidebar-color);
 	color: white;
 }
 
@@ -25,8 +25,8 @@
 .nav a {
 	font-size: 1.4em;
 	transition: border-bottom 0.5s ease;
-	border-bottom: 2px solid var(--primary-color);
+	border-bottom: 2px solid var(--sidebar-color);
 }
 .nav a:hover {
-	border-bottom: 2px solid var(--accent-color);
+	border-bottom: 2px solid #CFD8DC;
 }

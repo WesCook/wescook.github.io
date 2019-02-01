@@ -16,6 +16,7 @@
 @import "generic/box-sizing";
 
 /* Elements - Element-wide selectors */
+@import "elements/body";
 @import "elements/layout";
 @import "elements/typography";
 @import "elements/decoration";
@@ -26,5 +27,5 @@
 @import "components/post-decoration";
 @import "components/post-list";
 
-/* Trumps - Overrides, !important, anything added last */
-@import "trumps/print";
+/* Utilities - Overrides, !important, anything added last */
+@import "utilities/print";
