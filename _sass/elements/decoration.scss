@@ -3,6 +3,13 @@
 	margin: 0px 0px 10px 20px;
 }
 
+// Blockquotes
+blockquote {
+	margin-left: 15px;
+	padding-left: 13px;
+	border-left: 5px solid #888;
+}
+
 // Code tags
 code {
 	background-color: var(--code-block-color);
