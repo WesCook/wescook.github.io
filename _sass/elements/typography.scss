@@ -33,7 +33,7 @@ a {
 	text-decoration: none;
 	color: var(--link-color);
 }
-a:hover {
+a:hover, a:focus {
 	text-decoration-line: underline;
 	text-decoration-color: var(--link-color);
 }

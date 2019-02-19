@@ -9,6 +9,9 @@
 	color: white;
 	text-decoration: none;
 }
+.sidebar a:focus {
+	border-bottom: 2px solid #CFD8DC;
+}
 
 // Name
 .my-name {
@@ -27,6 +30,6 @@
 	transition: border-bottom 0.5s ease;
 	border-bottom: 2px solid var(--sidebar-color);
 }
-.nav a:hover {
+.nav a:hover, .nav a:focus {
 	border-bottom: 2px solid #CFD8DC;
 }
