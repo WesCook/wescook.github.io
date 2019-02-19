@@ -9,4 +9,6 @@ url: "https://wescook.ca"
 markdown: kramdown
 permalink: :categories/:title/
 sass:
-    style: compressed
+  style: compressed
+plugins:
+  - jekyll-redirect-from

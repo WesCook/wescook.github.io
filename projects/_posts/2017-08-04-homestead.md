@@ -2,6 +2,8 @@
 layout: post
 title: "Homestead"
 date: 2017-08-04 8:00:00 -0700
+redirect_from:
+  - /blog/homestead/
 ---
 One of the things I love about Minecraft is how open its modding community is.  Despite the game never being designed for it, a vibrant modding ecosystem has emerged upon which thousands of mods have been developed.
 
