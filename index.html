@@ -12,9 +12,11 @@ layout: container
 <ul>
 	{% for post in site.categories.blog limit:3 %}
 		<li class="post-list">
-			<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			<p>{{ post.excerpt | strip_html }}</p>
-			<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+			<article>
+				<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p>{{ post.excerpt | strip_html }}</p>
+				<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+			</article>
 		</li>
 	{% endfor %}
 </ul>
@@ -24,9 +26,11 @@ layout: container
 <ul>
 	{% for post in site.categories.projects limit:3 %}
 		<li class="post-list">
-			<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			<p>{{ post.excerpt | strip_html }}</p>
-			<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+			<article>
+				<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p>{{ post.excerpt | strip_html }}</p>
+				<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+			</article>
 		</li>
 	{% endfor %}
 </ul>
