@@ -1,6 +1,6 @@
 // Light Mode
 :root {
-	--foreground-color: black;
+	--foreground-color: #333;
 	--background-color: white;
 	--sidebar-color: #2196F3;
 	--link-color: #2196F3;
@@ -14,7 +14,7 @@ code {
 // Dark Mode
 @media screen and (prefers-color-scheme: dark) {
 	:root {
-		--foreground-color: white;
+		--foreground-color: #eee;
 		--background-color: #292727;
 		--sidebar-color: #15619c;
 		--link-color: #47BCFF;
