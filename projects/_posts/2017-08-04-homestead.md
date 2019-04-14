@@ -15,7 +15,7 @@ Mods will often be included in larger compilations called modpacks.  Modpacks ca
 
 I've been working on a modpack titled [Homestead](https://github.com/WesCook/Homestead) for a little over eight months.  The pack is designed around a wilderness survival theme, and has the player picking up sticks and stones, filtering water streams for iron nuggets, and generally trying their best to survive the harshness of the world.
 
-The design for Homestead was largely based on an existing mod, [TerraFirmaCraft](http://terrafirmacraft.com/).  TerraFirmaCraft is a wonderful mod that offers many interesting and unique features.  Unfortunately, the mod has not been updated to the latest version of the game, and remains largely incompatible with the majority of other mods.  This makes it difficult to include in other packs or expand upon.
+The design for Homestead was largely based on an existing mod, [TerraFirmaCraft](https://terrafirmacraft.com/).  TerraFirmaCraft is a wonderful mod that offers many interesting and unique features.  Unfortunately, the mod has not been updated to the latest version of the game, and remains largely incompatible with the majority of other mods.  This makes it difficult to include in other packs or expand upon.
 
 Homestead is my attempt at building a similar experience, while remaining compatible with other mods and using a newer version of the game engine.
 
