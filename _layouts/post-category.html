@@ -11,7 +11,7 @@ layout: container
 			<article>
 				<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 				<p>{{ post.excerpt | strip_html }}</p>
-				<span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+				<time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d, %Y' }}</time>
 			</article>
 		</li>
 	{% endfor %}
