@@ -21,3 +21,16 @@ code {
 hr {
 	margin: 20px 0 15px 0;
 }
+
+// Permalinks
+.perma {
+	opacity: 0;
+	transition: opacity 0.1s ease-in-out;
+}
+h2:hover .perma, h2 .perma:focus,
+h3:hover .perma, h3 .perma:focus,
+h4:hover .perma, h4 .perma:focus,
+h5:hover .perma, h5 .perma:focus,
+h6:hover .perma, h6 .perma:focus {
+	opacity: 1;
+}
