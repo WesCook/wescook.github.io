@@ -1,4 +1,5 @@
-.hidden {
+// Hide content from sighted users (still visible to screenreaders)
+.hide-sighted {
 	position: absolute;
 	left: -1000em;
 }
