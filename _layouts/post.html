@@ -5,5 +5,5 @@ layout: container
 <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%b %d, %Y' }}</time>
 
 <article class="post">
-	{% include anchor_headings.html html=content anchorBody="#" anchorTitle="Permalink" anchorClass="perma" %}
+	{% include anchor_headings.html html=content anchorBody="#" anchorTitle="Permalink" anchorClass="perma" anchorAttrs='aria-hidden="true"' %}
 </article>
