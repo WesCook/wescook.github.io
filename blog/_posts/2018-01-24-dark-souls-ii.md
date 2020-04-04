@@ -13,9 +13,11 @@ This review will mostly discuss the differences from the other titles in the ser
 
 Dark Souls is often defined by its combat, so I'd like to discuss that first.
 
-The combat in Dark Souls 2 is generally slower than the first game.  Large weapons have windup and require real commitment before you swing them.  Weapon tracking is slower, and isn't automatically corrected when coming out of rolls.  In melee, parries now require a sizable delay before a riposte can be performed while shields have more knockback.  Bows and other projectiles also consume more stamina and require a longer cooldown between uses.
+The combat in Dark Souls 2 is generally slower than the first game.  Stamina regenerates at a much slower rate, while estus takes longer to drink.  Large weapons have windup which require real commitment.  Shields have stronger deflection while weapon tracking is reduced.  Parries have a delayed activation window, and ripostes a longer animation.  Bows and other projectiles also consume more stamina and require a longer cooldown between use.
 
-These changes make combat feel more deliberate, but also less reactive.  I'll discuss some of the biggest combat changes below.
+These changes make combat feel more deliberate, but also less reactive.  Players often have to spend time waiting on their character get back in control.
+
+I'll discuss some of the biggest combat changes below.
 
 ### Agility
 
@@ -31,7 +33,7 @@ High-precision rolling is even more essential in Dark Souls 2 as the number of e
 
 ### Sweet Spot
 
-One new combat change is the "sweet spot" mechanic, where making a more direct hit with your weapon will do more damage.  This is also an idea that sounds great in concept, but in practice leads to inconsistent damage without obvious feedback to the player.  It also makes comparing damage between weapons much more difficult.
+One combat addition is the "sweet spot" mechanic, where making a more direct hit with your weapon will do more damage.  This is also an idea that sounds great in concept, but in practice leads to inconsistent damage without obvious feedback to the player.  It also makes comparing damage between weapons much more difficult.
 
 ### Weapon Redirecting
 
