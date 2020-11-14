@@ -3,3 +3,9 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+// Gallery
+.post.gallery img {
+	display: inline-block;
+	max-width: 49%;
+}

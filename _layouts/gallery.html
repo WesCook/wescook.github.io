@@ -1,0 +1,15 @@
+---
+layout: container
+---
+<h1 class="post-title">{{ page.title }}</h1>
+<time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%b %d, %Y' }}</time>
+
+<article class="post gallery">
+	{% include anchor_headings.html html=content anchorBody="#" anchorTitle="Permalink" anchorClass="perma" anchorAttrs='aria-hidden="true"' %}
+</article>
+
+<script>
+	lightGallery(document.getElementsByClassName('gallery')[0], {
+		selector: 'a[href$="jpg"]'
+	}); 
+</script>

@@ -1,3 +1,8 @@
+// Responsive sidebar and container
+.container {
+	display: flex;
+}
+
 // Sidebar mode
 @media screen and (min-width: 760px) {
 	.sidebar {
@@ -16,7 +21,7 @@
 	}
 
 	// IE fix for sidebar scaling
-	body::after {
+	.container::after {
 		content: '';
 		height: 100vh;
 		visibility: hidden;
@@ -25,7 +30,7 @@
 
 // Top Menu mode
 @media screen and (max-width: 759px) {
-	body {
+	.container {
 		flex-direction: column;
 	}
 	.sidebar {
@@ -39,7 +44,7 @@
 }
 
 // Content fills as much space as possible
-.container {
+.content {
 	flex: 1 0 0;
 	max-width: 900px;
 	padding: 50px 4%;
