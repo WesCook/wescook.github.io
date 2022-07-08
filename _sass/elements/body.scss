@@ -1,9 +1,4 @@
-// Browser UI elements support color schemes (inputs, scrollbars)
-:root {
-	color-scheme: light dark;
-}
-
-// Background and foreground colors support color schemes
+// Background and foreground colors (light/dark mode)
 body {
 	background-color: var(--background-color);
 	color: var(--foreground-color);
