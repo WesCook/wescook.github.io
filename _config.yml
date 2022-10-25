@@ -12,3 +12,4 @@ sass:
   style: compressed
 plugins:
   - jekyll-redirect-from
+future: true
