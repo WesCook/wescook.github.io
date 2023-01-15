@@ -5,7 +5,7 @@ date: 2022-10-25 8:00:00 -0800
 ---
 [Melvor Idle](https://melvoridle.com/) is an idle (or "incremental") game based around the RuneScape IP.  I started playing this one during a period where I was put out by renovations and had no office space.  It kept me busy and paired well with audiobooks, another hobby of mine.
 
-# Mod Support
+## Mod Support
 
 Melvor released an expansion last week, and with it came an official mod manager.  Now writing scripts for idle games is not uncommon (for many that becomes the game itself), but official mod support for a web-based game is something I've never seen before.  I was impressed and wanted to take a look.
 
