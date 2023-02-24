@@ -12,6 +12,7 @@ blockquote {
 
 // Code tags
 code {
+	white-space: pre;
 	background-color: var(--foreground-color);
 	border: 1px solid var(--border-color);
 	padding: 2px;
