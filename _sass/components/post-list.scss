@@ -16,7 +16,7 @@
 // Main category headers
 .category-header {
 	margin-top: 1.6em;
-	margin-top: calc(1.8vw + 20px);
+	margin-top: min(calc(1.8vw + 20px), 45px);
 }
 
 // Post lists
