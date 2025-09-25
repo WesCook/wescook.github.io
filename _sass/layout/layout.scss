@@ -48,6 +48,9 @@ body {
 	padding: 50px 4%;
 	margin: 0 auto;
 }
+.content section + section {
+	margin-top: 2rem;
+}
 
 // Float helpers
 .float-left {

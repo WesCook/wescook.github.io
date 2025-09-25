@@ -7,30 +7,23 @@ layout: container
 	<p>Here's some stuff I've recently written:</p>
 </section>
 
-<section aria-label="Blog Index">
-	<h2 class="category-header">Blog</h2>
+<section aria-label="Recent Writings">
 	<ul class="post-list">
-		{% for post in site.categories.blog limit:3 %}
-			<li>
-				<article>
-					<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					<p>{{ post.excerpt | strip_html }}</p>
-					<time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d, %Y' }}</time>
-				</article>
-			</li>
-		{% endfor %}
-	</ul>
-</section>
+			{% assign posts = site.categories.blog | concat: site.categories.projects | sort: "date" | reverse %}
+			{% for post in posts limit:6 %}
 
-<section aria-label="Project Index">
-	<h2 class="category-header">Projects</h2>
-	<ul class="post-list">
-		{% for post in site.categories.projects limit:3 %}
+			{% if post.url contains '/blog/' %}
+				{% assign post_type = "Blog" %}
+			{% else %}
+				{% assign post_type = "Projects" %}
+			{% endif %}
+
 			<li>
 				<article>
 					<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 					<p>{{ post.excerpt | strip_html }}</p>
 					<time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d, %Y' }}</time>
+					<a class="post-type" data-post-type="{{ post_type }}" href="/{{ post_type | slugify }}/">{{ post_type }}</a>
 				</article>
 			</li>
 		{% endfor %}
