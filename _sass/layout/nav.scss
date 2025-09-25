@@ -1,23 +1,13 @@
-// Sidebar styling
+// Sidebar base
 .sidebar {
 	text-align: center;
 	background-color: var(--sidebar-color);
 	color: white;
 }
 
-.sidebar a {
-	color: white;
-	text-decoration: none;
-}
-.nav a:focus,
-.my-name a:focus {
-	border-bottom: 2px solid #CFD8DC;
-}
-
 // Name
 .my-name {
-	margin: 8px;
-	font-weight: normal;
+	margin: 15px 0 8px 0;
 	font-size: 2em;
 }
 
@@ -25,14 +15,17 @@
 .nav ul {
 	list-style-type: none;
 	padding: 0;
+	font-size: 1.4em;
 }
 
-.nav a {
-	font-size: 1.4em;
+// Nav styling and underline
+.sidebar a {
+	color: white;
+	text-decoration: none;
+	outline: none;
 	transition: border-bottom 0.3s ease;
 	border-bottom: 2px solid var(--sidebar-color);
 }
-.nav a:hover,
-.nav a:focus {
+.sidebar a:is(:hover, :focus) {
 	border-bottom: 2px solid #CFD8DC;
 }
