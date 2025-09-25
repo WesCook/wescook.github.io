@@ -32,9 +32,11 @@
 
 // Post type tag
 .post-type {
+	display: inline-block;
 	font-size: 0.7em;
 	border-radius: 15px;
 	padding: 0.2rem 0.45rem;
+	margin-top: 0.4rem;
 	margin-left: 0.4rem;
 	text-decoration: none;
 	color: var(--foreground-color);

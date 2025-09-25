@@ -4,70 +4,59 @@ body {
 	color: var(--foreground-color);
 }
 
-// Responsive sidebar and container
+// Responsive layout
 .container {
 	display: flex;
 }
-
-// Sidebar mode
-@media (width > 760px) {
-	.sidebar {
-		width: calc(10% + 150px);
-		padding: 50px 0;
-	}
-	.sidebar a {
-		padding-bottom: 6px;
-	}
-	.nav li {
-		margin-top: 12px;
-	}
-	.bio {
-		margin-bottom: 50px;
-	}
+.sidebar {
+	padding: 3rem 1rem;
 }
-
-// Top Menu mode
-@media (width < 759px) {
-	.container {
-		flex-direction: column;
-	}
-	.sidebar {
-		padding: 20px;
-		box-sizing: content-box;
-	}
-	.nav li {
-		display: inline;
-		margin: 0 2%;
-	}
-}
-
-// Content fills as much space as possible
 .content {
-	flex: 1 0 0;
+	flex: 1;
+	padding: clamp(1rem, 3.5vw, 3.5rem);
 	max-width: 900px;
-	padding: 50px 4%;
 	margin: 0 auto;
 }
-.content section + section {
-	margin-top: 2rem;
+
+// Responsive nav
+.nav ul {
+	display: inline-flex;
+	gap: 0.5rem;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-// Float helpers
-.float-left {
-	float: left;
-	margin: 10px;
+// Sidebar nav mode (desktop)
+@media (width >= 760px) {
+	.sidebar {
+		flex-basis: clamp(14rem, 20vw, 20rem);
+		min-height: 100vh;
+	}
+	.nav {
+		margin-top: 2.4rem;
+	}
 }
-.float-right {
-	float: right;
-	margin: 10px;
+
+// Top nav mode (mobile)
+@media (width < 760px) {
+	.container {
+		flex-direction: column;
+		padding-top: 0;
+	}
+	.nav ul {
+		flex-direction: row;
+		gap: 1rem;
+	}
 }
-.clear {
-	clear: both;
+
+// Home article list separation
+.content section + section {
+	margin-top: 1.8rem;
 }
 
 // Main body of post
 .post {
-	margin-top: 10px;
+	margin-top: 0.7rem;
 }
 
 // Center images in posts

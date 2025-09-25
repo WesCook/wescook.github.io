@@ -39,5 +39,18 @@ hr {
 // Note visual underline.  Markup:
 // <span class="note" title="Note goes here">
 .note {
-	border-bottom: 1px dotted #ADADAD;
+	border-bottom: 1px dotted #adadad;
+}
+
+// Float helpers
+.float-left {
+	float: left;
+	margin-right: 0.7rem;
+}
+.float-right {
+	float: right;
+	margin-left: 0.7rem;
+}
+.clear {
+	clear: both;
 }
