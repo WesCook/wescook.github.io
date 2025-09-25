@@ -1,5 +1,6 @@
 // Lists
-.post ol, .post ul {
+.post ol,
+.post ul {
 	margin: 0px 0px 10px 20px;
 }
 
@@ -30,10 +31,7 @@ hr {
 	opacity: 0;
 	transition: opacity 0.1s ease-in-out;
 }
-h2:hover .perma, h2 .perma:focus,
-h3:hover .perma, h3 .perma:focus,
-h4:hover .perma, h4 .perma:focus,
-h5:hover .perma, h5 .perma:focus,
-h6:hover .perma, h6 .perma:focus {
+:is(h2, h3, h4, h5, h6):hover .perma,
+.perma:focus {
 	opacity: 1;
 }

@@ -9,7 +9,8 @@
 	color: white;
 	text-decoration: none;
 }
-.nav a:focus, .my-name a:focus {
+.nav a:focus,
+.my-name a:focus {
 	border-bottom: 2px solid #CFD8DC;
 }
 
@@ -30,6 +31,7 @@
 	transition: border-bottom 0.3s ease;
 	border-bottom: 2px solid var(--sidebar-color);
 }
-.nav a:hover, .nav a:focus {
+.nav a:hover,
+.nav a:focus {
 	border-bottom: 2px solid #CFD8DC;
 }

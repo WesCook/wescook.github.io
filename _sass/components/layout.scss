@@ -6,7 +6,6 @@
 // Sidebar mode
 @media screen and (min-width: 760px) {
 	.sidebar {
-		width: 322px; // Fallback
 		width: calc(10% + 150px);
 		padding: 50px 0;
 	}
@@ -18,13 +17,6 @@
 	}
 	.bio {
 		margin-bottom: 50px;
-	}
-
-	// IE fix for sidebar scaling
-	.container::after {
-		content: '';
-		height: 100vh;
-		visibility: hidden;
 	}
 }
 
