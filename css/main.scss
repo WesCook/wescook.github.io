@@ -2,31 +2,41 @@
 ---
 
 /*
-	Written using ITCSS methodology (http://itcss.io/)
-	See /_sass for imported files
+	Modeled on ITCSS methodology (http://itcss.io/) using CSS cascade layers.
+	Pulls in SASS partials from /_sass.
 */
 
-/* Settings - Global variables, configs */
-@import "settings/colors";
+@layer settings, generic, elements, components, utilities;
 
-/* Tools - Mixins and functions */
+/* Settings - Global variables, configs */
+@layer settings {
+	@import "settings/colors";
+}
 
 /* Generic - Normalize, resets, box-sizing */
-@import "generic/reset";
-@import "generic/box-sizing";
+@layer generic {
+	@import "generic/reset";
+	@import "generic/box-sizing";
+}
 
 /* Elements - Element-wide selectors */
-@import "elements/body";
-@import "elements/typography";
-@import "elements/images";
-@import "elements/decoration";
+@layer elements {
+	@import "elements/body";
+	@import "elements/typography";
+	@import "elements/images";
+	@import "elements/decoration";
+}
 
 /* Components - Class-specific selectors */
-@import "components/layout";
-@import "components/nav";
-@import "components/post-decoration";
-@import "components/post-list";
+@layer components {
+	@import "components/layout";
+	@import "components/nav";
+	@import "components/post-decoration";
+	@import "components/post-list";
+}
 
 /* Utilities - Overrides, !important, anything added last */
-@import "utilities/print";
-@import "utilities/screen-reader";
+@layer utilities {
+	@import "utilities/print";
+	@import "utilities/screen-reader";
+}
