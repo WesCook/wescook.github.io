@@ -9,14 +9,8 @@
 @layer base, layout, components, utilities;
 
 @layer base {
-	// Properties
 	@import "base/colors";
-
-	// Resets
 	@import "base/reset";
-	@import "base/box-sizing";
-
-	// Typography
 	@import "base/typography";
 }
 
