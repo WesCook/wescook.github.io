@@ -12,20 +12,18 @@
 // Main font styling
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.2em;
 	line-height: 1.4;
+	font-size: clamp(1em, calc(0.8em + 0.8vw), 1.2em);
 }
 
-// Fluid text scaling
-@media screen and (max-width: 800px) {
-	body {
-		font-size: calc(0.8em + 0.8vw);
-	}
-}
-
-// Paragraph and header spacing
+// Common paragraph and header spacing
 p, h1, h2, h3, h4, h5, h6, blockquote {
-	margin-bottom: 15px;
+	margin-bottom: 0.9rem;
+}
+
+// Headers in posts have more space above
+.post :is(h1, h2, h3, h4, h5, h6) {
+	margin-top: 1.5rem;
 }
 
 // Remove underline from links globally

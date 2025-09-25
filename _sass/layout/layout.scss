@@ -10,7 +10,7 @@ body {
 }
 
 // Sidebar mode
-@media screen and (min-width: 760px) {
+@media (width > 760px) {
 	.sidebar {
 		width: calc(10% + 150px);
 		padding: 50px 0;
@@ -27,7 +27,7 @@ body {
 }
 
 // Top Menu mode
-@media screen and (max-width: 759px) {
+@media (width < 759px) {
 	.container {
 		flex-direction: column;
 	}
@@ -65,4 +65,10 @@ body {
 // Main body of post
 .post {
 	margin-top: 10px;
+}
+
+// Center images in posts
+.post img {
+	display: flex;
+	margin: 0 auto;
 }

@@ -1,13 +1,12 @@
 // Lists
-.post ol,
-.post ul {
-	margin: 0px 0px 10px 20px;
+.post :is(ol, ul) {
+	margin: 0 0 1rem 0.4rem;
 }
 
 // Blockquotes
 blockquote {
-	margin-left: 15px;
-	padding-left: 13px;
+	margin-left: 1rem;
+	padding-left: 0.8rem;
 	border-left: 5px solid #888;
 }
 
@@ -16,12 +15,13 @@ code {
 	white-space: pre;
 	background-color: var(--foreground-color);
 	border: 1px solid var(--border-color);
-	padding: 2px;
+	padding: 0.2rem 0.4rem;
+	font-size: 0.85em;
 }
 
 // Horizontal Rule
 hr {
-	margin: 40px 0 35px 0;
+	margin: 2.5rem 0 2.2rem 0;
 }
 
 // Permalinks
@@ -34,4 +34,10 @@ hr {
 :is(h2, h3, h4, h5, h6):hover .perma,
 .perma:focus {
 	opacity: 1;
+}
+
+// Note visual underline.  Markup:
+// <span class="note" title="Note goes here">
+.note {
+	border-bottom: 1px dotted #ADADAD;
 }
