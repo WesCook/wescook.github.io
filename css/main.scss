@@ -2,40 +2,36 @@
 ---
 
 /*
-	Modeled on ITCSS methodology (http://itcss.io/) using CSS cascade layers.
-	Pulls in SASS partials from /_sass.
+	Pulls in Sass partials from /_sass into cascade layers.
+	Adapted from ITCSS methodology (http://itcss.io/).
 */
 
-@layer settings, generic, elements, components, utilities;
+@layer base, layout, components, utilities;
 
-/* Settings - Global variables, configs */
-@layer settings {
-	@import "settings/colors";
+@layer base {
+	// Properties
+	@import "base/colors";
+
+	// Resets
+	@import "base/reset";
+	@import "base/box-sizing";
+
+	// Typography
+	@import "base/typography";
 }
 
-/* Generic - Normalize, resets, box-sizing */
-@layer generic {
-	@import "generic/reset";
-	@import "generic/box-sizing";
+@layer layout {
+	@import "layout/layout";
+	@import "layout/nav";
 }
 
-/* Elements - Element-wide selectors */
-@layer elements {
-	@import "elements/body";
-	@import "elements/typography";
-	@import "elements/images";
-	@import "elements/decoration";
-}
-
-/* Components - Class-specific selectors */
 @layer components {
-	@import "components/layout";
-	@import "components/nav";
+	@import "components/images";
+	@import "components/decoration";
 	@import "components/post-decoration";
 	@import "components/post-list";
 }
 
-/* Utilities - Overrides, !important, anything added last */
 @layer utilities {
 	@import "utilities/print";
 	@import "utilities/screen-reader";
