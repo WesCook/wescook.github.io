@@ -7,7 +7,7 @@
 
 // Name
 .my-name {
-	margin: 15px 0 8px 0;
+	margin-bottom: 8px;
 	font-size: 2em;
 }
 
@@ -26,6 +26,6 @@
 	transition: border-bottom 0.3s ease;
 	border-bottom: 2px solid var(--sidebar-color);
 }
-.sidebar a:is(:hover, :focus) {
+.sidebar a:is(:hover, :focus):not(.logo) {
 	border-bottom: 2px solid #CFD8DC;
 }
