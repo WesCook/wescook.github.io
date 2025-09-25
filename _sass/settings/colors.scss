@@ -1,27 +1,12 @@
-// Light Mode
 :root {
-	--foreground-color: #333;
-	--background-color: white;
-	--sidebar-color: #2196F3;
-	--link-color: #2196F3;
-	--post-date-color: #666;
+	color-scheme: light dark;
+	--foreground-color: light-dark(#333, #eee);
+	--background-color: light-dark(white, #1e1e1e);
+	--sidebar-color: light-dark(#2196F3, #15619c);
+	--link-color: light-dark(#2196F3, #47BCFF);
+	--post-date-color: light-dark(#666, #adadad);
 }
 code {
-	--foreground-color: #EAEAEA;
-	--border-color: #D6D6D6;
-}
-
-// Dark Mode
-@media screen and (prefers-color-scheme: dark) {
-	:root {
-		--foreground-color: #eee;
-		--background-color: #1e1e1e;
-		--sidebar-color: #15619c;
-		--link-color: #47BCFF;
-		--post-date-color: #adadad;
-	}
-	code {
-		--foreground-color: black;
-		--border-color: #737373;
-	}
+	--foreground-color: light-dark(#EAEAEA, black);
+	--border-color: light-dark(#D6D6D6, #737373);
 }
