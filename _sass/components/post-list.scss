@@ -35,7 +35,7 @@
 	display: inline-block;
 	font-size: 0.7em;
 	border-radius: 15px;
-	padding: 0.2rem 0.45rem;
+	padding: 0.2rem 0.5rem;
 	margin-top: 0.4rem;
 	margin-left: 0.4rem;
 	text-decoration: none;
@@ -47,7 +47,7 @@
 .post-type[data-post-type="Blog"] {
 	background-color: var(--tone-blog);
 }
-.post-type[data-post-type="Projects"] {
+.post-type[data-post-type="Project"] {
 	background-color: var(--tone-projects);
 }
 
