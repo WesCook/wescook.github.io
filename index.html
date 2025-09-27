@@ -25,7 +25,7 @@ layout: container
 					<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 					<p>{{ post.excerpt | strip_html }}</p>
 					<time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d, %Y' }}</time>
-					<a class="post-type" data-post-type="{{ post_type_label }}" href="{{ post_type_url }}">{{ post_type_label }}</a>
+					<a class="post-type" data-post-type="{{ post_type_label | downcase }}" href="{{ post_type_url }}">{{ post_type_label }}</a>
 				</article>
 			</li>
 		{% endfor %}

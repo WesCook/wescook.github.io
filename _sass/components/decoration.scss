@@ -13,7 +13,7 @@ blockquote {
 // Code tags
 code {
 	white-space: pre;
-	background-color: var(--foreground-color);
+	background-color: oklch(from var(--background-color) calc(l - 0.03) c h); // Darken background by 3%
 	border: 1px solid var(--border-color);
 	padding: 0.2rem 0.4rem;
 	font-size: 0.85em;

@@ -27,7 +27,7 @@
 // Post date, listing and post pages
 .post-date {
 	font-size: 0.8em;
-	color: var(--post-date-color);
+	color: color-mix(in oklab, var(--foreground-color) 75%, var(--background-color)); // Mix in 25% of background
 }
 
 // Post type tag
@@ -44,11 +44,11 @@
 .post-type:hover {
 	color: oklch(from var(--foreground-color) calc(l - 0.1) c h); // Darken luminosity by 10%
 }
-.post-type[data-post-type="Blog"] {
+.post-type[data-post-type="blog"] {
 	background-color: var(--tone-blog);
 }
-.post-type[data-post-type="Project"] {
-	background-color: var(--tone-projects);
+.post-type[data-post-type="project"] {
+	background-color: var(--tone-project);
 }
 
 // Main category headers
