@@ -1,5 +1,10 @@
 // Hide content from sighted users (still visible to screenreaders)
+// From https://www.tpgi.com/the-anatomy-of-visually-hidden/
 .hide-sighted {
-	position: absolute;
-	left: -1000em;
+	position: absolute; // Remove from document flow
+	width: 1px; // Some browsers remove 0px objects from accessiblity tree
+	height: 1px;
+	overflow: hidden; // Visually limit content to its width
+	white-space: nowrap; // Prevent accidental wrapping and improve visual indicator placement
+	clip-path: inset(50%); // Make 1px element fully invisible
 }
