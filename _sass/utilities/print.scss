@@ -1,27 +1,20 @@
 @media print {
-	/* Hide sidebar */
+	// Hide sidebar
 	.sidebar {
 		display: none;
 	}
 
-	/* Page margins */
+	// Page margins
 	@page {
 		margin: 0.5cm;
 	}
-	.container {
-		padding: 0;
+
+	// Make all text black for easy printing
+	* {
+		color: black;
 	}
 
-	/* Add author */
-	h1::after {
-		content: "by Wes Cook";
-		display: block;
-		font-size: 12pt;
-		color: #464646;
-		margin: -5px 0 2px 0;
-	}
-
-	/* Element sizing */
+	// Standardize font sizing
 	h1 {
 		font-size: 17pt;
 	}
@@ -29,8 +22,11 @@
 		font-size: 12pt;
 	}
 
-	/* Remove color from links */
-	a {
-		color: #000;
+	// Add author
+	h1::after {
+		content: "by Wes Cook";
+		display: block;
+		font-size: 12pt;
+		margin: -5px 0 2px 0;
 	}
 }
