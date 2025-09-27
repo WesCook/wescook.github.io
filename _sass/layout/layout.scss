@@ -8,9 +8,11 @@ body {
 .container {
 	display: flex;
 }
+
 .sidebar {
 	padding: 3rem 1rem;
 }
+
 .content {
 	flex: 1;
 	padding: clamp(1rem, 3.5vw, 3.5rem);
@@ -21,9 +23,13 @@ body {
 // Responsive nav
 .nav ul {
 	display: inline-flex;
-	gap: 0.5rem;
 	flex-direction: column;
 	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.6rem;
+	padding: 0;
+	list-style-type: none;
+	font-size: 1.4em;
 }
 
 // Sidebar nav mode (desktop)
@@ -32,6 +38,7 @@ body {
 		flex-basis: clamp(14rem, 20vw, 20rem);
 		min-height: 100vh;
 	}
+
 	.nav {
 		margin-top: 2.4rem;
 	}
@@ -43,6 +50,7 @@ body {
 		flex-direction: column;
 		padding-top: 0;
 	}
+
 	.nav ul {
 		flex-direction: row;
 		gap: 1rem;

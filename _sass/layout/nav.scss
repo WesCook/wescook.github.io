@@ -7,26 +7,19 @@
 
 // Name
 .my-name {
-	margin-bottom: 0.5rem;
+	margin: 0.3rem 0;
 	font-size: 2em;
-}
-
-// Navigation
-.nav ul {
-	justify-content: center;
-	list-style-type: none;
-	padding: 0;
-	font-size: 1.4em;
 }
 
 // Nav styling and underline
 .sidebar a {
 	color: white;
-	text-decoration: none;
+	transition: text-decoration-color 250ms, text-underline-offset 250ms;
+	text-decoration: underline 1.6px transparent;
+	text-underline-offset: 8px;
 	outline: none;
-	transition: border-bottom 0.3s ease;
-	border-bottom: 2px solid var(--sidebar-color);
 }
-.sidebar a:is(:hover, :focus):not(.logo) {
-	border-bottom: 2px solid #CFD8DC;
+.sidebar a:is(:hover, :focus) {
+	text-decoration-color: #CFD8DC;
+	text-underline-offset: 12px;
 }
