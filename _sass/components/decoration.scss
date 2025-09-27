@@ -7,7 +7,7 @@
 blockquote {
 	margin-left: 1rem;
 	padding-left: 0.8rem;
-	border-left: 5px solid #888;
+	border-left: 5px solid var(--border-color);
 }
 
 // Code tags
@@ -39,7 +39,7 @@ hr {
 // Note visual underline.  Markup:
 // <span class="note" title="Note goes here">
 .note {
-	border-bottom: 1px dotted #adadad;
+	border-bottom: 1px dotted var(--border-color);
 }
 
 // Float helpers

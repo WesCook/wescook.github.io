@@ -42,7 +42,7 @@
 	color: var(--foreground-color);
 }
 .post-type:hover {
-	color: color-mix(in srgb, var(--foreground-color), grey 30%);
+	color: oklch(from var(--foreground-color) calc(l - 0.1) c h); // Darken luminosity by 10%
 }
 .post-type[data-post-type="Blog"] {
 	background-color: var(--tone-blog);

@@ -1,8 +1,8 @@
 // Sidebar base
 .sidebar {
 	text-align: center;
-	background-color: var(--sidebar-color);
-	color: white;
+	background-color: var(--sidebar-bg-color);
+	color: var(--sidebar-fg-color);
 }
 
 // Name
@@ -13,13 +13,13 @@
 
 // Nav styling and underline
 .sidebar a {
-	color: white;
+	color: var(--sidebar-fg-color);
 	transition: text-decoration-color 250ms, text-underline-offset 250ms;
-	text-decoration: underline 1.6px transparent;
+	text-decoration: underline 1.7px transparent;
 	text-underline-offset: 8px;
 	outline: none;
 }
 .sidebar a:is(:hover, :focus) {
-	text-decoration-color: #CFD8DC;
-	text-underline-offset: 12px;
+	text-decoration-color: color-mix(in oklab, var(--sidebar-fg-color) 70%, var(--sidebar-bg-color)); // Mix in 30% of background
+	text-underline-offset: 10px;
 }
