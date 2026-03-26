@@ -11,12 +11,27 @@ blockquote {
 }
 
 // Code tags
-code {
-	white-space: pre;
-	background-color: oklch(from var(--background-color) calc(l - 0.03) c h); // Darken background by 3%
+// Code: Shared styles
+code:not(pre.highlight code),
+pre.highlight {
+	background-color: oklch(from var(--background-color) calc(l - 0.03) c h);  // Darken background by 3%
 	border: 1px solid var(--border-color);
-	padding: 0.2rem 0.4rem;
 	font-size: 0.85em;
+}
+
+// Code: Inline only
+code:not(pre code) {
+	padding: 0.1rem 0.3rem;
+}
+
+// Code: Block-level only
+pre.highlight {
+	overflow-x: auto;
+	padding: 0.3rem 0.5rem;
+	margin-bottom: 0.9rem;
+	// Hack needed to create horizontal scrollbars on code blocks instead of page
+	width: 0;
+	min-width: 100%;
 }
 
 // Horizontal Rule
