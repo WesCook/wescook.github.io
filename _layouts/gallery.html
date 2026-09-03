@@ -5,7 +5,7 @@ layout: container
 <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%b %d, %Y' }}</time>
 
 <article class="post gallery">
-	{% include anchor_headings.html html=content anchorBody="#" anchorTitle="Permalink" anchorClass="perma" anchorAttrs='aria-hidden="true"' %}
+	{{ content }}
 </article>
 
 <link rel="stylesheet" href="/js/baguetteBox.js/baguetteBox.min.css">
