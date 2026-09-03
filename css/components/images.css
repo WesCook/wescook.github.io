@@ -1,9 +1,9 @@
-// Sidebar logo
+/* Sidebar logo */
 .logo {
 	display: inline-block;
 }
 
-// Gallery
+/* Gallery */
 .post.gallery img {
 	display: inline-block;
 	max-width: 49%;

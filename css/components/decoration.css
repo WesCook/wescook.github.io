@@ -1,45 +1,45 @@
-// Lists
+/* Lists */
 .post :is(ol, ul) {
 	margin: 0 0 1rem 0.4rem;
 }
 
-// Blockquotes
+/* Blockquotes */
 blockquote {
 	margin-left: 1rem;
 	padding-left: 0.8rem;
 	border-left: 5px solid var(--border-color);
 }
 
-// Code tags
-// Code: Shared styles
+/* Code tags */
+/* Code: Shared styles */
 code:not(pre.highlight code),
 pre.highlight {
-	background-color: oklch(from var(--background-color) calc(l - 0.03) c h);  // Darken background by 3%
+	background-color: oklch(from var(--background-color) calc(l - 0.03) c h);  /* Darken background by 3% */
 	border: 1px solid var(--border-color);
 	font-size: 0.85em;
 }
 
-// Code: Inline only
+/* Code: Inline only */
 code:not(pre code) {
 	padding: 0.1rem 0.3rem;
 }
 
-// Code: Block-level only
+/* Code: Block-level only */
 pre.highlight {
 	overflow-x: auto;
 	padding: 0.3rem 0.5rem;
 	margin-bottom: 0.9rem;
-	// Hack needed to create horizontal scrollbars on code blocks instead of page
+	/* Hack needed to create horizontal scrollbars on code blocks instead of page */
 	width: 0;
 	min-width: 100%;
 }
 
-// Horizontal Rule
+/* Horizontal Rule */
 hr {
 	margin: 2.5rem 0 2.2rem 0;
 }
 
-// Permalinks
+/* Permalinks */
 .perma {
 	margin-left: 0.1em;
 	vertical-align: middle;
@@ -51,13 +51,13 @@ hr {
 	opacity: 1;
 }
 
-// Note visual underline.  Markup:
-// <span class="note" title="Note goes here">
+/* Note visual underline.  Markup: */
+/* <span class="note" title="Note goes here"> */
 .note {
 	border-bottom: 1px dotted var(--border-color);
 }
 
-// Float helpers
+/* Float helpers */
 .float-left {
 	float: left;
 	margin-right: 0.7rem;

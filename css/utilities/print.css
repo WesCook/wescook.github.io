@@ -1,20 +1,20 @@
 @media print {
-	// Hide sidebar
+	/* Hide sidebar */
 	.sidebar {
 		display: none;
 	}
 
-	// Page margins
+	/* Page margins */
 	@page {
 		margin: 0.5cm;
 	}
 
-	// Make all text black for easy printing
+	/* Make all text black for easy printing */
 	* {
 		color: black;
 	}
 
-	// Standardize font sizing
+	/* Standardize font sizing */
 	h1 {
 		font-size: 17pt;
 	}
@@ -22,7 +22,7 @@
 		font-size: 12pt;
 	}
 
-	// Add author
+	/* Add author */
 	h1::after {
 		content: "by Wes Cook";
 		display: block;

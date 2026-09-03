@@ -1,31 +1,33 @@
 ---
 ---
-
 /*
-	Pulls in Sass partials from /_sass into cascade layers.
-	Adapted from ITCSS methodology (http://itcss.io/).
+	Concatenates CSS partials using liquid templates.
+	Avoids Sass @import, which is deprecated, and @use, which is annoying.
+	This bootstrap file retains its .scss extension just for Sass minification
+
+	CSS layout adapted from ITCSS methodology by Harry Roberts
 */
 
 @layer base, layout, components, utilities;
 
 @layer base {
-	@import "base/colors";
-	@import "base/reset";
-	@import "base/typography";
+	{% include_relative base/colors.css %}
+	{% include_relative base/reset.css %}
+	{% include_relative base/typography.css %}
 }
 
 @layer layout {
-	@import "layout/layout";
-	@import "layout/nav";
+	{% include_relative layout/layout.css %}
+	{% include_relative layout/nav.css %}
 }
 
 @layer components {
-	@import "components/images";
-	@import "components/decoration";
-	@import "components/post-list";
+	{% include_relative components/images.css %}
+	{% include_relative components/decoration.css %}
+	{% include_relative components/post-list.css %}
 }
 
 @layer utilities {
-	@import "utilities/print";
-	@import "utilities/screen-reader";
+	{% include_relative utilities/print.css %}
+	{% include_relative utilities/screen-reader.css %}
 }

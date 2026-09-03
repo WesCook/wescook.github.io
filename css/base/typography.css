@@ -1,32 +1,32 @@
-// Google Fonts
+/* Google Fonts */
 @font-face {
 	font-family: 'Source Sans Pro';
 	font-display: auto;
 	src:
 		local('Source Sans Pro Regular'),
 		local('SourceSansPro-Regular'),
-		url(/css/fonts/source-sans-pro.woff2) format('woff2');
+		url(/fonts/source-sans-pro.woff2) format('woff2');
 	unicode-range: U+20,U+21,U+26-29,U+2C-3B,U+3F-57,U+59,U+61-7A,U+2013,U+2019,U+201C,U+201D,U+2026;
 }
 
-// Main font styling
+/* Main font styling */
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.4;
 	font-size: clamp(1em, calc(0.8em + 0.8vw), 1.2em);
 }
 
-// Common paragraph and header spacing
+/* Common paragraph and header spacing */
 p, h1, h2, h3, h4, h5, h6, blockquote {
 	margin-bottom: 0.9rem;
 }
 
-// Headers in posts have more space above
+/* Headers in posts have more space above */
 .post :is(h1, h2, h3, h4, h5, h6) {
 	margin-top: 1.5rem;
 }
 
-// Remove underline from links globally
+/* Remove underline from links globally */
 a {
 	text-decoration: none;
 	color: var(--link-color);

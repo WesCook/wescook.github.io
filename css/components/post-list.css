@@ -1,4 +1,4 @@
-// Post list container
+/* Post list container */
 .post-list {
 	padding: 0;
 
@@ -14,23 +14,23 @@
 }
 
 
-// Header text on index page
+/* Header text on index page */
 .intro-header {
 	font-size: 3em;
 }
 
-// Post title, listing and post pages
+/* Post title, listing and post pages */
 .post-title {
 	margin-bottom: -5px;
 }
 
-// Post date, listing and post pages
+/* Post date, listing and post pages */
 .post-date {
 	font-size: 0.8em;
-	color: color-mix(in oklab, var(--foreground-color) 75%, var(--background-color)); // Mix in 25% of background
+	color: color-mix(in oklab, var(--foreground-color) 75%, var(--background-color)); /* Mix in 25% of background */
 }
 
-// Post type tag
+/* Post type tag */
 .post-type {
 	display: inline-block;
 	font-size: 0.7em;
@@ -42,7 +42,7 @@
 	color: var(--foreground-color);
 }
 .post-type:hover {
-	color: oklch(from var(--foreground-color) calc(l - 0.1) c h); // Darken luminosity by 10%
+	color: oklch(from var(--foreground-color) calc(l - 0.1) c h); /* Darken luminosity by 10% */
 }
 .post-type[data-post-type="blog"] {
 	background-color: var(--tone-blog);
@@ -51,7 +51,7 @@
 	background-color: var(--tone-project);
 }
 
-// Main category headers
+/* Main category headers */
 .category-header {
 	margin-top: min(calc(1.8vw + 20px), 45px);
 }

@@ -1,10 +1,10 @@
-// Background and foreground colors (light/dark mode)
+/* Background and foreground colors (light/dark mode) */
 body {
 	background-color: var(--background-color);
 	color: var(--foreground-color);
 }
 
-// Responsive layout
+/* Responsive layout */
 .container {
 	display: flex;
 }
@@ -20,7 +20,7 @@ body {
 	margin: 0 auto;
 }
 
-// Responsive nav
+/* Responsive nav */
 .nav ul {
 	display: inline-flex;
 	flex-direction: column;
@@ -31,7 +31,7 @@ body {
 	font-size: 1.4em;
 }
 
-// Sidebar nav mode (desktop)
+/* Sidebar nav mode (desktop) */
 @media (width >= 760px) {
 	.sidebar {
 		flex-basis: clamp(14rem, 20vw, 20rem);
@@ -43,7 +43,7 @@ body {
 	}
 }
 
-// Top nav mode (mobile)
+/* Top nav mode (mobile) */
 @media (width < 760px) {
 	.container {
 		flex-direction: column;
@@ -57,17 +57,17 @@ body {
 	}
 }
 
-// Home article list separation
+/* Home article list separation */
 .content section + section {
 	margin-top: 1.8rem;
 }
 
-// Main body of post
+/* Main body of post */
 .post {
 	margin-top: 0.7rem;
 }
 
-// Center images in posts
+/* Center images in posts */
 .post img {
 	display: flex;
 	margin: 0 auto;
