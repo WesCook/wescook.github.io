@@ -10,6 +10,4 @@ markdown: kramdown
 permalink: :categories/:title/
 sass:
   style: compressed
-plugins:
-  - jekyll-redirect-from
 future: true

@@ -4,5 +4,5 @@ Built in Jekyll, licensed under MIT.
 
 ```bash
 bundle install
-jekyll serve
+bundle exec jekyll serve
 ```
