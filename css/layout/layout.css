@@ -5,7 +5,7 @@ body {
 }
 
 /* Responsive layout */
-.container {
+body {
 	display: flex;
 }
 
@@ -45,7 +45,7 @@ body {
 
 /* Top nav mode (mobile) */
 @media (width < 760px) {
-	.container {
+	body {
 		flex-direction: column;
 		padding-top: 0;
 	}
